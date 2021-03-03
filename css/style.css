@@ -379,9 +379,7 @@ select {
   .block_f_1, .block_f_2 {
       padding: 48px;
   }
-  .slayder_1 {
-      
-  }
+ 
   
   @media  (max-width: 768px) {
     .col-sm-1 {
@@ -525,3 +523,4 @@ select {
           overflow: hidden;
       }
   }
+  
