@@ -192,9 +192,12 @@ select {
      
   }
   .p_text {
-      width: 455px;
+      width: auto;
       font-size: 21px;
       line-height: 32px;
+  }
+  .p_text br, .p3_text br, .p5_text br {
+      display: none;
   }
   .card_h2 {
      font-family: Mulish;
@@ -243,18 +246,20 @@ select {
       padding-left: 17px;
       padding-top: 15px;
       border: 0px;
-     
-  }
+     }
   .card {
      box-shadow: 0px 20px 15px 10px  #E5E5E5;
      border-radius: 20px;
-     border: 1px solid white;
+   
   }
   .card_h3 {
     font-size: 21px;
     font-weight: normal;
     color: #000000;
     padding-bottom: 20px;
+  }
+  .card_d, .card_f {
+    line-height: 28px;
   }
   .btn_button {
       width: 180px;
@@ -294,13 +299,14 @@ select {
   .block_4, .block_5 {
       padding-top: 70px;
   }
-  .slayder_1 {
-      width: 1008px;
-      height: 383px;
-      background: #458FF6;
-      border-radius: 24px;
-     
+  .carousel-inner {
+    
+    width: 1008px;
+    height: 383px;
+    background: #458FF6;
+    border-radius: 24px;
   }
+ 
   .h_slayder, .p_slayder, .p_slayder_1 {
       color: #ffffff;
   }
@@ -323,9 +329,10 @@ select {
     background-color: #ffffff;
   }
   .card_7, .card_8, .card_9 {
-      
+    
     border-radius: 20px 20px 0px 0px;
   }
+ 
   .footer {
       background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
       margin-top: 50px;
@@ -510,6 +517,10 @@ select {
      .block_f_1, .block_f_2 {
          margin-left: 35px;
      }
+     .carousel-inner {
+         width: auto;
+         height: 520px;
+     }
     
   }
   @media (min-width: 1024px) and (max-width: 1366px) {
@@ -523,4 +534,3 @@ select {
           overflow: hidden;
       }
   }
-  
