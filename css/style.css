@@ -530,8 +530,7 @@ select {
          padding: 0 20px;
          text-align: center;
      }
-     body {
-        height: 100%;
+     html,body {
         overflow-x: hidden;
     }
     .row_2 {
