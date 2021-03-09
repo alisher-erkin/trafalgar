@@ -139,7 +139,7 @@ select {
   .element_1 {
       position: absolute;
       left: 160px;
-      top: 2940px;
+      top: 3240px;
   }
   .bg_element {
       position: absolute;
@@ -154,6 +154,9 @@ select {
   }
   .row_1 {
       margin-top: 55px;
+  }
+  .row_2 {
+      margin-top: 30px;
   }
   .block_2-1 {
       padding-left: 60px;
@@ -329,7 +332,6 @@ select {
     background-color: #ffffff;
   }
   .card_7, .card_8, .card_9 {
-    
     border-radius: 20px 20px 0px 0px;
   }
  
@@ -385,6 +387,9 @@ select {
   }
   .block_f_1, .block_f_2 {
       padding: 48px;
+  }
+  .reg_block {
+      padding: 30px 0px 30px 0px;
   }
  
   
@@ -521,6 +526,23 @@ select {
          width: auto;
          height: 520px;
      }
+     .p_text {
+         padding: 0 20px;
+         text-align: center;
+     }
+     html, body {
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .row_2 {
+        margin-top: 0px;
+    }
+    .card {
+        box-shadow: none;
+    }
+    .row_7 .card {
+        border: none;
+    }
     
   }
   @media (min-width: 1024px) and (max-width: 1366px) {
