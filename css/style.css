@@ -253,6 +253,7 @@ select {
   .card {
      box-shadow: 0px 20px 15px 10px  #E5E5E5;
      border-radius: 20px;
+     border: none;
    
   }
   .card_h3 {
@@ -541,6 +542,12 @@ select {
     }
     .row_7 .card {
         border: none;
+    }
+    .text_1 {
+        padding-right: 10px;
+    }
+    .text_1 br {
+        display: none;
     }
     
   }
