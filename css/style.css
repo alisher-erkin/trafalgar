@@ -265,6 +265,9 @@ select {
   .card_d, .card_f {
     line-height: 28px;
   }
+  .card_f, .card_h3, .bottom_link {
+      padding: 10px;
+  }
   .btn_button {
       width: 180px;
       height: 50px;
@@ -392,6 +395,9 @@ select {
   }
   .row_1 .card, .row_2 .card {
       padding: 15px;
+  }
+  .seven_button {
+      margin-top: 100px;
   }
  
  
