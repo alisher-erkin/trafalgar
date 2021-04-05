@@ -13,7 +13,13 @@ ol[class] {
   padding: 0;
 }
 
-
+@font-face {
+	font-family: 'Mulish';
+	src: url('../fonts/Mulish-VariableFont_wght.ttf') format('truetype'),
+       url('../fonts/Mulish-VariableFont_wght.ttf') format('truetype');
+	font-weight: 400 500 700;
+    font-style: normal;
+}
 
 /* Убираем внешние отступы */
 body,
@@ -83,38 +89,9 @@ select {
 
 /* css */
 
-
-
 /* fonts */
 
-/* mulish-regular - latin */
-@font-face {
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''),
-         url('../fonts/mulish-v3-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/mulish-v3-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* mulish-500 - latin */
-  @font-face {
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 500;
-    src: local(''),
-         url('../fonts/mulish-v3-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/mulish-v3-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* mulish-700 - latin */
-  @font-face {
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 700;
-    src: local(''),
-         url('../fonts/mulish-v3-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/mulish-v3-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  
+
   html {
       box-sizing: border-box;
   }
@@ -122,7 +99,7 @@ select {
       box-sizing: inherit;
   }
   body {
-      font-family: Mulish;
+      font-family: 'Mulish';
       font-style: normal;
       font-size: 16px;
       line-height: 1.2;
@@ -206,7 +183,6 @@ select {
       display: none;
   }
   .card_h2 {
-     font-family: Mulish;
      font-size: 24px;
      font-weight: normal;
      color: #000000;
@@ -216,7 +192,6 @@ select {
       margin-left: 0px;
   }
   .h1_text {
-    font-family: Mulish;
     font-size: 48px;
     font-weight: normal;
     color: #000000;
