@@ -1,18 +1,20 @@
 {
-  "name": "trafalgarsass",
+  "name": "y",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisher-erkin/trafalgar.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alisher-erkin/trafalgar/issues"
   },
-  "homepage": "https://github.com/alisher-erkin/trafalgar#readme",
-  "devDependencies": {
-    "gulp": "^4.0.2"
-  }
+  "homepage": "https://github.com/alisher-erkin/trafalgar#readme"
 }
